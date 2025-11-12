@@ -1,0 +1,15 @@
+CREATE DATABASE pos_system;
+USE pos_system;
+
+CREATE TABLE products (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50),
+  price DOUBLE,
+  quantity INT
+);
+
+INSERT INTO products (name, price, quantity) VALUES
+('Soap', 25, 100),
+('Shampoo', 60, 50),
+('Toothpaste', 40, 70),
+('Rice Bag', 550, 30);
