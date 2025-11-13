@@ -1,0 +1,14 @@
+body {
+  background-color: #f8f9fa;
+}
+
+h2 {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.table {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
